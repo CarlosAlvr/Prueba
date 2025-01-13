@@ -1,0 +1,16 @@
+[package]
+name = "communication-manager"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+log = "0.4"
+env_logger = "0.11.5"
+zenoh = "1.1.0"
+clap = { version = "4.5.23", features = ["derive"] }
+futures = "0.3.17"
+prost = "0.13.4" 
+serde_json = "1.0.68"
+serde_yaml = "0.9.34"
+serde = { version = "1.0.130", features = ["derive"] }
+tokio = { version = "1.10.0", features = ["full"] }
